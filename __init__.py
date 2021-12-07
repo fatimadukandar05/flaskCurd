@@ -13,9 +13,9 @@ app.secret_key = 'many random bytes'
 
 
 app.config['MYSQL_HOST'] = 'sql6.freemysqlhosting.net'
-app.config['MYSQL_USER'] = 'sql6451949'
-app.config['MYSQL_PASSWORD'] = 'j8CJtnfV5Y'
-app.config['MYSQL_DB'] = 'sql6451949'
+app.config['MYSQL_USER'] = 'sql6456809'
+app.config['MYSQL_PASSWORD'] = 'ljaNRXEGwc'
+app.config['MYSQL_DB'] = 'sql6456809'
 
 
 # sql6.freemysqlhosting.net
