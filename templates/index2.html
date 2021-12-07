@@ -109,7 +109,7 @@
                   <label>Name:</label>
                    <input type="hidden"  name="id"  value="{{row.0}}">
 
-                  <input type="text" class="form-control" id="txtName" name="name" value="{{row.1}}" required="1">
+                  <input type="text" class="form-control" id="textName" name="name" value="{{row.1}}" required="1">
 
 
                </div>
@@ -121,7 +121,7 @@
 
                   <label>Email:</label>
 
-                  <input type="text" class="form-control" id="txtEmail" name="email" value="{{row.2}}" required="1">
+                  <input type="text" class="form-control" id="textEmail" name="email" value="{{row.2}}" required="1">
 
 
                </div>
@@ -132,7 +132,7 @@
 
                   <label>Phone:</label>
 
-                  <input type="number" class="form-control" id="txtPhone" name="phone" value="{{row.3}}" required="1">
+                  <input type="number" class="form-control" id="textPhone" name="phone" value="{{row.3}}" required="1">
 
 
                </div>
@@ -388,9 +388,9 @@ function registration() {
 
 
     function addition() {
-    var v1 = document.getElementById("txtName").value;
-    var v2 = document.getElementById("txtEmail").value;
-    var v3 = document.getElementById("txtPhone").value;
+    var v1 = document.getElementById("textName").value;
+    var v2 = document.getElementById("textEmail").value;
+    var v3 = document.getElementById("textPhone").value;
 <!--alert(v1);-->
 // //email id expression code
     var pwd_expression = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-])/;
